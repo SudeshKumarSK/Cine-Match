@@ -1,4 +1,5 @@
 # Cine-Match: Movie Recommendation System
+
 CineMatch: Final Project of EE 541(Introduction to Deep Learning for Engineers)
 
 ## Description
@@ -7,16 +8,21 @@ Cine-Match is an advanced movie recommendation system that utilizes the MovieLen
 
 The system's intelligent content-based algorithm is underpinned by a hybrid model that synthesizes both explicit feedback, like user ratings, and implicit behavioral data, such as viewing history. This approach ensures a nuanced recommendation list that is as informed by user behavior as it is by their direct input.
 
-
 ## Contributors:
+
 1. [Ori Shirin](oshirin@usc.edu)
-    USC ID: 4014987308
+   USC ID: 4014987308
 2. [Sudesh Kumar Santhosh Kumar](santhosh@usc.edu)
-    USC ID: 4166249920 
+   USC ID: 4166249920
 
 ## Important Links:
-[MovieLens Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
-[Github Repository](https://github.com/SudeshKumarSK/Cine-Match)
+
+1. [MovieLens Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+2. [Github Repository](https://github.com/SudeshKumarSK/Cine-Match)
+3. [Cosine Similarity Matrix](https://drive.google.com/drive/folders/1-29DMP0dvxKM0kyZTtqup3hScUD6c4xE?usp=sharing)
+4. [BERT Embeddings](https://drive.google.com/drive/folders/1Jrx2J6JWKL03kbE-9z7EQWq38oZZqhqj?usp=sharing)
+
+Create Respective Directories and place them inside the corresponding directory.
 
 ## Installation
 
@@ -27,6 +33,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
 Run the above command to setup your dependencies and we are using Miniconda Environment for this project. The Jupyter Notebooks were created and used in VS Code using the Miniconda kernels.
 
 Checkout [Miniconda YouTube Tutorial](https://www.youtube.com/watch?v=U3VAqCTujpg)
@@ -43,15 +50,15 @@ Within the `Notebooks` directory, you will find Jupyter notebooks that are centr
 
 Run the notebooks sequentially to replicate the analysis and model training processes. Refer to the Project Structure below to understand where you the Datasets need to be downloaded and placed.
 
-
 ## Project Structure
 
 The project is organized into several key directories:
 
 - `Input/`: Houses the datasets and intermediary files used for the analysis and model training. Key subdirectories include:
+
   - `CleansedData`: Contains cleaned and preprocessed versions of the datasets.
   - `CosineMatrix`: Stores the precomputed cosine similarity matrices.
-  (Computation of Cosine similarity matrices are computationally heavy, so they were generated on Google Colab and placed here).
+    (Computation of Cosine similarity matrices are computationally heavy, so they were generated on Google Colab and placed here).
   - `Data`: The original MovieLens dataset files. (Place the downloaded Datasets here)
   - `Embeddings`: Serialized files of BERT embeddings for use in the recommendation models. (Since Generating BERT Embeddings needs GPU, We used Google Colab's Tesla T4 to generate BERT Embeddings, downloaded them, and stored in the Embeddings directory.)
 
