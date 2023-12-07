@@ -14,8 +14,9 @@ The system's intelligent content-based algorithm is underpinned by a hybrid mode
 2. [Sudesh Kumar Santhosh Kumar](santhosh@usc.edu)
     USC ID: 4166249920 
 
-## Dataset Used:
+## Important Links:
 [MovieLens Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+[Github Repository](https://github.com/SudeshKumarSK/Cine-Match)
 
 ## Installation
 
@@ -26,6 +27,11 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+Run the above command to setup your dependencies and we are using Miniconda Environment for this project. The Jupyter Notebooks were created and used in VS Code using the Miniconda kernels.
+
+Checkout [Miniconda YouTube Tutorial](https://www.youtube.com/watch?v=U3VAqCTujpg)
+
+[Miniconda Installation](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html)
 
 Within the `Notebooks` directory, you will find Jupyter notebooks that are central to the project:
 
@@ -67,5 +73,3 @@ If you have any questions or would like to discuss the project further, please c
 
 1. Ori Shirin: oshirin@usc.edu
 2. Sudesh Kumar: santhosh@usc.edu
-
-
