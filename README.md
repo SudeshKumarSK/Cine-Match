@@ -36,7 +36,8 @@ pip install -r requirements.txt
 
 Run the above command to setup your dependencies and we are using Miniconda Environment for this project. The Jupyter Notebooks were created and used in VS Code using the Miniconda kernels.
 
-Checkout [Miniconda YouTube Tutorial](https://www.youtube.com/watch?v=U3VAqCTujpg)
+Checkout the following resources:
+[Miniconda YouTube Tutorial](https://www.youtube.com/watch?v=U3VAqCTujpg)
 
 [Miniconda Installation](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html)
 
